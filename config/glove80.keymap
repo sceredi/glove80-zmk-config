@@ -231,8 +231,8 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp PLUS>, <&kp N1>;
-            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LCTL|MOD_RCTL)>;
+            keep-mods = <(MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
         };
         mm_2: mm_2 {
             compatible = "zmk,behavior-mod-morph";
