@@ -367,29 +367,25 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp EXCL>, <&kp PRCNT>;
-            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mm_pipe: mm_pipe {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp GRAVE>;
-            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mm_at: mm_at {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp AT>, <&kp CARET>;
-            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mm_bl: mm_bl {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSLASH>, <&kp HASH>;
-            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 };
